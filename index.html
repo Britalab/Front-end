@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabañas Canto de Agua - Puerto Cisnes</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span class="fw-bold">Cabañas Canto de Agua</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#cabanas">Nuestras Cabañas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ubicacion">Ubicación</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header-inicio">
+        <div class="content-container text-center text-white bg-dark bg-opacity-75 p-5 rounded">
+            <div class="contenido">
+                <h1 class="animate__animated animate__fadeInDown mb-4">Canto de Agua</h1>
+                <p class="lead animate__animated animate__fadeInUp">Desconecta en un entorno único de naturaleza pura</p>
+                <div class="divider my-4"></div>
+                <p class="text-justify destacado">Despierta rodeado de vistas que quitan el aliento. En nuestras cabañas en <strong>Puerto Cisnes</strong>, vivirás una experiencia única donde la naturaleza se convierte en tu refugio. Relájate y disfruta de actividades como senderismo, pesca, y la observación de fauna, todo mientras te rodean paisajes incomparables.</p>
+                
+                <ul class="list-unstyled mt-4">
+                    <li class="mb-2"><i class="fas fa-tree me-2"></i> A 15 min del Parque Nacional Queulat</li>
+                    <li class="mb-2"><i class="fas fa-water me-2"></i> Ubicación privilegiada frente a Playa Media Luna</li>
+                    <li><i class="fas fa-star me-2"></i> Experiencia única en la Patagonia Chilena</li>
+                </ul>
+                
+                <a href="#contacto" class="btn btn-primary btn-lg mt-4 animate__animated animate__pulse animate__infinite animate__slower">Reserva Ahora</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="cabanas" class="container mt-5">
+        <div class="bg-light p-5 rounded shadow-lg content-section">
+            <h2 class="text-center mb-4">Nuestras Cabañas</h2>
+            <p class="text-center text-muted mb-5">Escoge la cabaña perfecta para tu experiencia en la Patagonia</p>
+            
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="img/cabaña calafate.jpg" class="card-img-top" alt="Cabaña Arrayán">
+                        <div class="card-body">
+                            <h5 class="card-title">Cabaña Arrayán</h5>
+                            <p class="card-text text-justify">Descansa rodeado de naturaleza. Arrayán te ofrece <strong>ventanales panorámicos</strong>, para que disfrutes de vistas impresionantes mientras te relajas en un ambiente tranquilo y acogedor. ¡Despierta con el paisaje de la Patagonia frente a ti!</p>
+                        </div>
+                        <div class="card-footer bg-transparent">
+                            <a href="#contacto" class="btn btn-outline-primary">Consultar disponibilidad</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="img/cabaña pasarela.PNG" class="card-img-top" alt="Cabaña Pasarela">
+                        <div class="card-body">
+                            <h5 class="card-title">Cabaña Pasarela</h5>
+                            <p class="card-text text-justify">Vive la experiencia única de llegar a Pasarela, donde una hermosa pasarela te lleva a tu refugio privado. Relájate en el confort de esta cabaña con una <strong>tinaja de madera al aire libre</strong>, perfecta para disfrutar de un baño caliente bajo las estrellas.</p>
+                        </div>
+                        <div class="card-footer bg-transparent">
+                            <a href="#contacto" class="btn btn-outline-primary">Consultar disponibilidad</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="img/tinaja pasarela.PNG" class="card-img-top" alt="Tinajas de madera">
+                        <div class="card-body">
+                            <h5 class="card-title">Tinajas de madera</h5>
+                            <p class="card-text text-justify">Sumérgete en el placer de un baño caliente en nuestras tradicionales <strong>tinajas de madera</strong>. Disfruta de la calidez del agua rodeado de la belleza natural de la Patagonia. El momento perfecto para relajarte y reconectar.</p>
+                        </div>
+                        <div class="card-footer bg-transparent">
+                            <a href="#contacto" class="btn btn-outline-primary">Reservar experiencia</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="quote-widget" style="font-style: italic; font-size: 1.2rem; color: #d4c4a8; text-align: center; margin: 30px 0;">
+    <!-- La cita aparecerá aquí -->
+    </div>
+
+
+    <script>
+      const quotes = [
+        "En este momento, solo importa el presente",
+        "Cada respiración es una oportunidad para relajarse",
+        "Cree en ti mismo y todo será posible.",
+        "Respira profundamente y deja ir las tensiones",
+        "Sé amable contigo mismo",
+        "La vida es más tranquila cuando respiras y te permites ser."
+      ];
+
+      const randomIndex = Math.floor(Math.random() * quotes.length);
+      const quoteElement = document.getElementById('quote-widget');
+      quoteElement.textContent = quotes[randomIndex];
+    </script>
+
+    <section id="contacto" class="container mt-5">
+      <div class="bg-light p-5 rounded shadow-lg content-section">
+            <h2 class="text-center mb-4">Contáctanos</h2>
+            <p class="text-center text-muted mb-4">Completa el formulario y nos pondremos en contacto contigo</p>
+            
+            <div class="row">
+                <div class="col-lg-6">
+                    <form id="formularioContacto">
+                        <div class="mb-3">
+                            <label class="form-label">Nombre completo</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Correo electrónico</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Teléfono</label>
+                            <input type="tel" class="form-control" id="telefono" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Mensaje</label>
+                            <textarea class="form-control" rows="5" required></textarea>
+                        </div>
+                        <div id="errores" class="text-danger mt-3"></div> <!-- Sección para mostrar errores -->
+                        <button type="submit" class="btn btn-primary w-100">Enviar mensaje</button>
+                    </form>
+                </div>
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <div class="contact-info p-4 h-100">
+                        <h4 class="mb-4">Información de contacto</h4>
+                        <ul class="list-unstyled">
+                            <li class="mb-3"><i class="fas fa-map-marker-alt me-3"></i> Playa Media Luna, Puerto Cisnes, Chile</li>
+                            <li class="mb-3"><i class="fas fa-phone me-3"></i> +56 9 5624 9693</li>
+                            <li class="mb-3"><i class="fas fa-envelope me-3"></i> cantode.agua@gmail.com</li>
+                        </ul>
+                        
+                        <div class="social-links mt-4">
+                            <a href="#" class="me-3"><i class="fab fa-instagram fa-2x"></i></a>
+                            <a href="#" class="me-3"><i class="fab fa-facebook fa-2x"></i></a>
+                            <a href="#" class="me-3"><i class="fab fa-whatsapp fa-2x"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="ubicacion" class="container mt-5 mb-5">
+        <div class="bg-light p-5 rounded shadow-lg content-section">
+            <h2 class="text-center mb-4">Nuestra Ubicación</h2>
+            <p class="text-center text-muted mb-4">Visítanos en Balneario Puerto Cisnes, frente a Playa Media Luna</p>
+            
+            <div class="row">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3117.824659823597!2d-72.700244!3d-44.745827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDTCsDQ0JzQ1LjAiUyA3MsKwNDInMDAuOSJX!5e1!3m2!1ses!2scl!4v1743366429632!5m2!1ses!2scl" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+                    <h4 class="mb-3">Cómo llegar</h4>
+                    <ol class="list-group list-group-numbered">
+                        <li class="list-group-item border-0 ps-0">Desde Coyhaique, tomar la Carretera Austral (Ruta 7) hacia el sur</li>
+                        <li class="list-group-item border-0 ps-0">Continuar por aproximadamente 3 horas hasta Puerto Cisnes</li>
+                        <li class="list-group-item border-0 ps-0">En el balneario, buscar el sector de quinchos frente a Playa Media Luna</li>
+                        <li class="list-group-item border-0 ps-0">Estacionamiento disponible para huéspedes</li>
+                    </ol>
+                    
+                    <div class="mt-4">
+                        <h5>Atractivos cercanos:</h5>
+                        <ul class="list-group">
+                            <li class="list-group-item border-0 ps-0"><i class="fas fa-arrow-right me-2"></i> Parque Nacional Queulat (15 min)</li>
+                            <li class="list-group-item border-0 ps-0"><i class="fas fa-arrow-right me-2"></i> Ventisquero Colgante (45 min)</li>
+                            <li class="list-group-item border-0 ps-0"><i class="fas fa-arrow-right me-2"></i> Termas de Puyuhuapi (1 hora)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                 <h5>Cabañas Canto de Agua</h5>
+                    <p>Tu refugio en la Patagonia Chilena. Experiencias únicas rodeadas de naturaleza.</p>
+                </div>
+            <div class="col-md-4 mb-4 mb-md-0">
+                <h5>Contacto</h5>
+                <ul class="list-unstyled">
+                    <li><i class="fas fa-map-marker-alt me-2"></i> Playa Media Luna, Puerto Cisnes</li>
+                    <li><i class="fas fa-phone me-2"></i> +56 9 5624 9693</li>
+                    <li><i class="fas fa-envelope me-2"></i> cantode.agua@gmail.com</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Síguenos</h5>
+                <div class="social-links">
+                    <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-lg"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-lg"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-whatsapp fa-lg"></i></a>
+                </div>
+                <div class="mt-3">
+                    <a href="#cabanas" class="text-white me-3">Cabañas</a>
+                    <a href="#contacto" class="text-white me-3">Contacto</a>
+                    <a href="#ubicacion" class="text-white">Ubicación</a>
+                </div>
+            </div>
+        </div>
+            </div>
+        </div>
+
+        <hr class="my-4">
+        <div class="text-center">
+                <p class="mb-0">&copy; 2025 Cabañas Canto de Agua. Todos los derechos reservados.</p>
+        </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="validaciones.js"></script>
+    <script>
+        document.getElementById("formularioContacto").addEventListener("submit", function(e) {
+            e.preventDefault(); // Previene el envío real
+            alert("¡Gracias por contactarnos! Te responderemos pronto.");
+            this.reset(); // Limpia el formulario
+        });
+    </script>
+</body>
+</html>
+
